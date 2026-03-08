@@ -1,7 +1,15 @@
 {
  "pack": {
    "pack_format": 48,
-   "description": "Cobblemon Conquest Marks",
+   "description": "Cobblemon Conquest Datapack",
    "supported_formats": {"min_inclusive":34,"max_inclusive": 48}
+ },
+ "filter": {
+    "block": [
+      "cobblemon": {
+        "namespace": "cobblemon",
+        "path": "blocks",
+      }
+    ]
  }
 }

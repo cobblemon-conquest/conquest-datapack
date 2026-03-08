@@ -39,7 +39,7 @@ jobs:
     permissions:
       contents: write
     with:
-      file_name: "cobblemon-conquest_marks-datapack"
+      file_name: "0-cobblemon-conquest_marks-datapack"
       version: ${{ needs.prepare.outputs.version }}
     secrets:
       token: ${{ secrets.GITHUB_TOKEN }}
