@@ -2,5 +2,21 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "phione-1T",
+      "pokemon": "phione min_perfect_ivs=3",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "rare",
+      "level": "10",
+      "weight": 0.6,
+      "condition": {
+        "minLureLevel": 2,
+        "biomes": [
+          "#cobblemon:is_ocean"
+        ]
+      }
+    }
+  ]
 }
