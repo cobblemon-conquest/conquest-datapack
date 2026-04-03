@@ -2,5 +2,25 @@
   "enabled": true,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
-  "spawns": []
+  "spawns": [
+    {
+      "id": "zeraora-1T",
+      "pokemon": "zeraora min_perfect_ivs=3",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "60",
+      "weight": 0.2,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_desert"
+        ]
+      }
+    }
+  ]
 }
